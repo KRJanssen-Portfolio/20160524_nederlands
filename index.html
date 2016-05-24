@@ -9,7 +9,8 @@
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
-
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
@@ -20,7 +21,37 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        <section class="register">
+            <div class="container">
+                <h2>Registreer nu gratis!</h2>
+                <form action="php/manager.php" method="POST">
+
+                    <div class="form-group">
+                        <label for="">E-mail:</label>
+                        <input type="email" name="email" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Naam:</label>
+                        <input type="text" name="name" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Achternaam:</label>
+                        <input type="text" name="lastname" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Klas:</label>
+                        <input type="text" name="class" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Niveau:</label>
+                        <input type="text" name="level" class="form-control">
+                    </div>
+                    <input type="submit" value="add" class="btn btn-warning">
+
+                </form>
+            </div>
+        </section>
+        
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>

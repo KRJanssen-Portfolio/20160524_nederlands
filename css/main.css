@@ -95,7 +95,20 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
 
+/* REGISTER SECTION */
+.register {
+    padding-top: 20px;
+}
+
+.register h2 {
+    margin-bottom: 30px;
+}
+/* END REGISTER SECTION */
 
 
 
